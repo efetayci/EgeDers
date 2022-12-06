@@ -10,7 +10,7 @@ namespace EgeSharp
         public int ProductId { get; set; }
         public int EmployeeId { get; set; }
         public DateTime Time { get; set; }
-        public int Amount { get; set; }
+        public double Amount { get; set; }
 
         public Employee Employee { get; set; }
         public Product Product { get; set; }
